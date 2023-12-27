@@ -1,0 +1,194 @@
+/* Basic styling for the prototype */
+/* Add more styling for different sections, responsiveness, etc. */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.offer-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styling for buttons, forms, etc. */
+.cta-button,
+.redeem-button,
+.submit-button {
+  padding: 12px 24px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover,
+.redeem-button:hover,
+.submit-button:hover {
+  background-color: #ff4949;
+}
+
+/* Additional styling for the About Us section */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2,
+.about-container h3 {
+  margin-top: 30px;
+  color: #ff6b6b;
+}
+
+.about-container p {
+  line-height: 1.6;
+}
+
+/* Additional styling for the Contact Us section */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+  margin-top: 30px;
+  color: #ff6b6b;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  padding: 12px 24px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+/* Header and navigation styling */
+.site-header {
+  background-color: #ff6b6b;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo .logo-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+  color: #333;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 8px 0;
+}
+
+.footer a {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

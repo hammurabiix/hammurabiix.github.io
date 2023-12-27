@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Bamboo Savings Program Thailand</title>
+  <link rel="stylesheet" href="bbsvloginstyles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <img width="48" height="48" src="https://img.icons8.com/fluency/48/bamboo.png" alt="bamboo"/>
+      <a href="index.html#home" class="logo-link">Bamboo Savings Thailand</a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><strong><a href="index.html">Home</a></strong></li>
+        <li><strong><a href="index.html#offers">Offers</a></strong></li>
+        <li><strong><a href="index.html#about">About Us</a></strong></li>
+        <li><strong><a href="index.html#contact">Contact</a></strong></li>
+        <li><strong><a href="bbsvlogin.html">My Account</a></strong></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="login" class="login-section">
+      <div class="login-container">
+        <h2>Login to your Bamboo Savings Account</h2>
+        
+        <!-- Login Form -->
+        <form id="login-form" class="login-form">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <button type="submit" class="submit-button">Login</button>
+          <button type="button" class="forgot-password-button" onclick="forgotPassword()">Forgot Password?</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contact-info">
+      <p>Contact us:</p>
+      <p>Email: <a href="mailto:bamboothailand@contactus.com">BBSVTH@contactus.co.th</a></p>
+      <p>Line Official: <a href="https://line.me/R/ti/p/@BambooSavingsTH" target="_blank">@BambooSavingsTH</a></p>
+    </div>
+    <div class="follow-us">
+      <p>Follow us:</p>
+      <p>Facebook: <a href="https://www.facebook.com/BambooSavings" target="_blank">BambooSavings Thailand</a></p>
+    </div>
+  </footer>
+
+  <script src="bbsvloginscript.js"></script>
+</body>
+</html>
